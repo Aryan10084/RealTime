@@ -3,7 +3,7 @@ import 'dart:convert';
 import '../models/news_article.dart';
 
 class NewsService {
-  final String apiKey = 'fc1bfb78b64748688fa89366ab796b4a';
+  final String apiKey = 'newsapi.org_api_key_here';
 
   Future<List<NewsArticle>> fetchArticles({String? country, String? source, String? category}) async {
     const String baseUrl = 'https://newsapi.org/v2/top-headlines';
